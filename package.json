@@ -15,5 +15,8 @@
     "postcss": "^8.2.1",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^2.0.0"
   }
 }
