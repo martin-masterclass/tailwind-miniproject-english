@@ -549,16 +549,19 @@ video {
 h1 {
   font-size: 3rem;
   line-height: 1;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
+  margin-bottom: 0.75rem;
 }
 
 h3 {
   font-size: 1.5rem;
   line-height: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .container {
