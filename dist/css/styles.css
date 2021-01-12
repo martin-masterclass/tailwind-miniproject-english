@@ -579,6 +579,11 @@ h3 {
   color: rgba(33, 47, 73, var(--tw-text-opacity));
 }
 
+p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .container {
   width: 100%;
 }
