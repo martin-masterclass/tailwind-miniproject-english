@@ -33,26 +33,32 @@
             <li>Tailored nutrition plans</li>
           </ul>
           <!-- Only for >= md -->
-          <h3 class="mt-10 hidden md:block">My qualifications:</h3>
-            <ul class="list-disc ml-6 hidden md:block">
+          <section class="hidden md:block" id="quali_right">
+            <h3 class="mt-10">My qualifications:</h3>
+            <ul class="list-disc ml-6">
               <li>Certified nutritionist</li>
               <li>Certified fitness trainer</li>
               <li>5 years of experience in 1: 1 training</li>
             </ul>
+          </section>
+
         </div>
       </section>
 
       <!-- Only for <= sm -->
-      <h3 class="mt-5 md:mt-10 md:hidden">My qualifications:</h3>
-            <ul class="list-disc ml-6 md:hidden">
-              <li class=" leading-5 md:leading-normal">Certified nutritionist</li>
-              <li class=" leading-5 md:leading-normal">Certified fitness trainer</li>
-              <li class=" leading-5 md:leading-normal">5 years of experience in 1: 1 training</li>
-            </ul>
+      <section class=" md:hidden" id="quali_bottom">
+        <h3 class="mt-5 md:mt-10">My qualifications:</h3>
+        <ul class="list-disc ml-6">
+          <li class=" leading-5 md:leading-normal">Certified nutritionist</li>
+          <li class=" leading-5 md:leading-normal">Certified fitness trainer</li>
+          <li class=" leading-5 md:leading-normal">5 years of experience in 1: 1 training</li>
+        </ul>
+      </section>
+
       
       <! - Prices and payment ->
       <section class="mt-8" id = "price_payment">
-        <div class="md:w-8/12 mx-auto">
+        <div class="lg:w-8/12 mx-auto">
           <h2>Prices and payment</h2>
           <p>My most important goal is that you get ahead with your goals.</p>
           <p>In a free opening session we will discuss what you want to achieve and how much you can or want to spend. Then we are guaranteed to find a solution that suits you.</p>
@@ -62,13 +68,11 @@
 
       <! - Contact ->
       <section class="mt-8 mb-10" id = "contact">
-        <div class="grid grid-cols-2 gap-4 md:w-8/12 md:mx-auto">
+        <div class="flex justify-around lg:grid lg:grid-cols-2 lg:gap-4 lg:w-8/12 lg:mx-auto">
           <div id = "email">
             <p>Your message:</p>
             <a class="bg-gray-300 flex items-center w-max px-4 py-2 rounded shadow-sm focus:ring-2 focus:ring-yellow-400 hover:bg-gray-400 hover:shadow-none transition" href="#">
-
-<svg class="h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-at-sign"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
-              
+              <svg class="h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-at-sign"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
               <span>Send an Email</span>  
             </a>
           </div>
