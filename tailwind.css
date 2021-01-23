@@ -11,19 +11,19 @@
 
 
     h1 {
-      @apply  mb-6 text-4xl sm:text-5xl font-headline text-mainColor;
+      @apply  mb-6 text-4xl sm:text-5xl xl:text-6xl font-headline text-mainColor;
     }
     h2 {
-      @apply mb-3 text-xl sm:text-2xl md:text-3xl font-headline text-mainColor;
+      @apply mb-3 text-xl sm:text-2xl md:text-3xl xl:text-4xl font-headline text-mainColor;
     }
     h3 {
-      @apply mb-4 md:mb-2 text-xl md:text-2xl font-headline text-mainColor;
+      @apply mb-4 md:mb-2 text-xl md:text-2xl xl:text-3xl font-headline text-mainColor;
     }
     p {
-      @apply text-lg;
+      @apply text-lg xl:text-xl 2xl:text-2xl;
     }
     li {
-      @apply mb-4 text-lg md:text-xl;
+      @apply mb-4 text-lg md:text-xl xl:text-2xl;
     }
   }
   
