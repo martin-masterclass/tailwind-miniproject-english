@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html x-data="{ dark: true }" :class="dark ? 'dark' : '' " lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body class="bg-mainColor debug-screens">
     <div class="container mx-auto min-h-screen px-6 py-8 bg-gray-100 dark:bg-gray-900">
 
       <! - page header / headings ->
       <section id="header">
+        <button @click="dark = !dark" class="bg-gray-300 rounded">Toggle Dark Mode</button>
       <div class="text-center">
         <h1 class="leading-snug">Tom Gonzales home training<br>
           <span class="text-indigo-900 dark:text-indigo-300 italic text-4xl sm:text-5xl lg:text-7xl opacity-80">
